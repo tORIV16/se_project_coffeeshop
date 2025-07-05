@@ -17,9 +17,15 @@
     <link rel="icon" href="favicon.ico">
     <title>Coffee Shop</title>
   </head>
+
   <body>
+
     <div class="page">
+
+    <!--- - - - - - - - - - - - - - - - - - - Header - - - - - - - - - - - - - - - - - - - - - --->
+
       <header class="header">
+
         <nav class="nav">
 
           <div class="nav__logo">
@@ -50,11 +56,13 @@
         <img class="header__image" src="./images/inside_coffee_shop.png" alt="Inside Coffee Shop View">
 
         <div class="header__footer">
+
           <div class="header__footer-left">
             <p class="header__paragraph">Hours:</p>
             <p class="header__paragraph">Monday - Friday (10:00 - 19:00)</p>
             <p class="header__paragraph">Saturday - Sunday (11:00 - 18:00)</p>
           </div>
+
           <div class="header__footer-right">
             <p class="header__paragraph">200 Success Avenue, The Town of Triple Peaks</p>
           </div>
@@ -64,6 +72,10 @@
       </header>
 
       <main class="content">
+
+
+    <!--- - - - - - - - - - - - - - - - - Recipes - - - - - - - - - - - - - - - - - - - - - --->
+
 
         <section class="recipes" id="recipes">
 
@@ -117,19 +129,93 @@
 
         </section>
 
-        <section class="reservation" id="reservation">
+    <!--- - - - - - - - - - - - - - - - - - - Recipes - - - - - - - - - - - - - - - - - - - - - --->
+
+        <section class="reservation reservation_format" id="reservation">
+
+          <h2 class="reservation__title">
+            Book a table
+          </h2>
+
+          <form class="reservation__form form">
+
+            <fieldset class="form__fieldset">
+
+              <label class="form__label">
+                Name *
+              </label>
+              <input
+                type="text"
+                class="form__input"
+                placeholder="Name Surname"
+                required
+              >
+
+              <label class="form__label">
+                Number of guests *
+              </label>
+              <input
+                type="number"
+                class="form__input"
+                min="1"
+                max="8"
+                placeholder="1-8"
+                required
+              >
+
+              <label class="form__label">
+                Date & Time *
+              </label>
+              <input
+                type="datetime-local"
+                class="form__input"
+                required
+              >
+
+              <label class="form__label">
+                Your email *
+              </label>
+              <input
+                type="email"
+                class="form__input"
+                placeholder="email@email.com"
+                required
+              >
+
+            </fieldset>
+
+            <button class="form__button">
+              Book a table
+            </button>
+
+            <label class="form__label form__label_last">
+              <input
+                type="checkbox"
+                class="form__checkbox"
+              >
+              <span>I agree with the terms of use</span>
+            </label>
+
+          </form>
 
         </section>
+
+    <!--- - - - - - - - - - - - - - - - - - - Menu - - - - - - - - - - - - - - - - - - - - - --->
 
         <section class="menu" id="menu">
 
         </section>
+
+    <!--- - - - - - - - - - - - - - - - - - - About - - - - - - - - - - - - - - - - - - - - - --->
+
 
         <section class="about" id="about">
 
         </section>
 
       </main>
+
+    <!--- - - - - - - - - - - - - - - - - - - Footer - - - - - - - - - - - - - - - - - - - - - --->
 
       <footer class="footer">
 
