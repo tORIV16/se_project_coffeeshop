@@ -1,0 +1,37 @@
+.about {
+  background-color: #0A2850;
+  color: #fff;
+}
+
+.about__format {
+  overflow: hidden;
+  position: relative;
+}
+
+.about__title {
+  max-width: 251px;
+  margin: 100px 0 0 80px;
+  position: absolute;
+  z-index: 1
+}
+
+.about__content {
+  max-width: 660px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about__paragraph {
+  margin: 0;
+}
+
+.about__circle {
+  background-color: #1878DC;
+  width: 426px;
+  height: 426px;
+  border-radius: 50%;
+  position: absolute;
+  top: -152px;
+  left: -129px;
+}
