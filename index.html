@@ -130,13 +130,13 @@
 
     <!--- - - - - - - - - - - - - - - - - - - Reservation - - - - - - - - - - - - - - - - - - - - - --->
 
-        <section class="reservation reservation_format" id="reservation">
+        <section class="reservation reservation--format" id="reservation">
 
           <h2 class="reservation__title">
             Book a table
           </h2>
 
-          <form class="reservation__form form">
+          <form class="form">
 
             <fieldset class="form__fieldset">
 
@@ -187,7 +187,7 @@
               Book a table
             </button>
 
-            <label class="form__label form__label_last">
+            <label class="form__label form__label-last">
               <input
                 type="checkbox"
                 class="form__checkbox"
@@ -201,7 +201,7 @@
 
     <!--- - - - - - - - - - - - - - - - - - - Menu - - - - - - - - - - - - - - - - - - - - - --->
 
-        <section class="menu menu_format" id="menu">
+        <section class="menu menu--format" id="menu">
 
           <h2 class="menu__title">Menu</h2>
 
@@ -212,7 +212,7 @@
 
           <div class="menu__cards">
 
-            <div class="card">
+            <ol class="card">
 
               <h3 class="card__title">Filter</h3>
 
@@ -226,9 +226,9 @@
 
               <li class="card__list-item">Iced Coffee (16 oz)<span class="card__list-divider"></span>$1.25</li>
 
-            </div>
+            </ol>
 
-            <div class="card">
+            <ol class="card">
 
               <h3 class="card__title">Espresso</h3>
 
@@ -240,9 +240,9 @@
 
               <li class="card__list-item">Sunrise in the Bay Area (decaf)<span class="card__list-divider"></span>$10.00</li>
 
-            </div>
+            </ol>
 
-            <div class="card">
+            <ol class="card">
 
               <h3 class="card__title">Baked Goods</h3>
 
@@ -258,7 +258,7 @@
 
               <li class="card__list-item">Fresh Bug’uette<span class="card__list-divider"></span>$0.25</li>
 
-            </div>
+            </ol>
 
           </div>
 
@@ -268,7 +268,7 @@
     <!--- - - - - - - - - - - - - - - - - - - About - - - - - - - - - - - - - - - - - - - - - --->
 
 
-        <section class="about about_format" id="about">
+        <section class="about" id="about">
 
           <h2 class="about__title">About the coffee shop</h2>
 
@@ -291,7 +291,9 @@
 
           </div>
 
-          <span class="about__circle"></span>
+          <div class="about__circle"></div>
+
+          <div class="about__circle about__circle_animation_blurred"></div>
 
         </section>
 
@@ -300,6 +302,52 @@
     <!--- - - - - - - - - - - - - - - - - - - Footer - - - - - - - - - - - - - - - - - - - - - --->
 
       <footer class="footer">
+
+        <div class="footer__content">
+
+          <img src="./images/logo_coffeeshop_light.svg" class="footer__logo">
+
+          <div class="footer__social">
+
+              <h3 class="footer__social-heading">
+                Social Media
+              </h3>
+
+              <ol class="footer__list">
+
+                <li class="footer__list-item">
+
+                  <a href="facebook.com" class="footer__social-link">
+
+                    <img src="./images/facebook_white.svg" class="footer__social-icon">
+
+                    Facebook
+
+                  </a>
+
+                </li>
+
+                <li class="footer__list-item">
+
+                  <a href="instagram.com" class="footer__social-link">
+
+                    <img src="./images/instagram_white.svg" class="footer__social-icon">
+
+                    Instagram
+
+                  </a>
+
+                </li>
+
+              </ol>
+
+          </div>
+
+        </div>
+
+        <h4 class="footer__copyright">
+          © 2025 Victor H Juarez
+        </h4>
 
       </footer>
 

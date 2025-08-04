@@ -6,7 +6,7 @@
   background-size: cover;
 }
 
-.menu_format {
+.menu--format {
   display: flex;
   flex-direction: column;
 }
@@ -33,30 +33,4 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 100px;
-}
-
-.card {
-  width: 540px;
-}
-
-.card__title {
-  margin: 0 0 32px;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 30px;
-}
-
-.card__list-item {
-  margin: 16px 0 0;
-  text-wrap: nowrap;
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  font-family: "Noto Serif", "Times New Roman", serif;
-}
-
-.card__list-divider {
-  border-bottom: 1px solid #000;
-  width: 100%
 }

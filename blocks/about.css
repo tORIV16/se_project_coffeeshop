@@ -1,25 +1,44 @@
+@keyframes heartbeat {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 0.6;
+    transform: scale(1.37);
+  }
+}
+
 .about {
   background-color: #0A2850;
   color: #fff;
-}
-
-.about__format {
-  overflow: hidden;
   position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .about__title {
   max-width: 251px;
   margin: 100px 0 0 80px;
-  position: absolute;
-  z-index: 1
+  z-index: 1;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
 }
 
 .about__content {
   max-width: 660px;
   display: flex;
   flex-direction: column;
+  margin: 119px 80px 173px auto;
   gap: 20px;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .about__paragraph {
@@ -27,11 +46,15 @@
 }
 
 .about__circle {
+  position: absolute;
   background-color: #1878DC;
   width: 426px;
   height: 426px;
   border-radius: 50%;
-  position: absolute;
   top: -152px;
   left: -129px;
+}
+
+.about__circle_animation_blurred {
+  animation: heartbeat 1.3s ease-in-out 0s infinite;
 }

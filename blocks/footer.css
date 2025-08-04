@@ -1,0 +1,74 @@
+@keyframes blink {
+  0% {
+    color: white;
+  }
+  50% {
+    color: #c1c1c1;
+  }
+  100% {
+    color: white;
+  }
+}
+
+.footer {
+  background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__content {
+  margin: 60px 80px 108px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer__logo {
+  width: 105px;
+  height: 39px;
+}
+
+.footer__social {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__social-heading {
+  margin: 0 0 20px;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+}
+
+.footer__list {
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0;
+}
+
+.footer__social-link {
+  color: white;
+  text-decoration: none;
+  line-height: -20px;
+  margin: 0;
+}
+
+.footer__social-link:hover {
+  animation: blink 1.5s linear 0 infinite
+}
+
+.footer__social-icon {
+  height: 16px;
+  width: 16px;
+  margin-right: 10px;
+}
+
+.footer__copyright {
+  font-size: 16px;
+  font-weight: normal;
+  color: white;
+  margin: 0 0 60px 80px;
+}
