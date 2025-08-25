@@ -1,0 +1,17 @@
+ .nav {
+  margin-right: 50px;
+  display: flex;
+  justify-content: space-between;
+ }
+
+ .nav__logo-image {
+  position: relative;
+ }
+
+ .nav__links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  font-weight: 500;
+ }

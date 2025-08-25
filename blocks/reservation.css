@@ -6,7 +6,7 @@
   background-size: cover;
 }
 
-.reservation--format {
+.reservation__format {
   display: flex;
   flex-direction: column;
 }

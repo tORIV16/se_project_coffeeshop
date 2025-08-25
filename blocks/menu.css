@@ -6,7 +6,7 @@
   background-size: cover;
 }
 
-.menu--format {
+.menu__format {
   display: flex;
   flex-direction: column;
 }
