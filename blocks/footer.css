@@ -12,6 +12,7 @@
 
 .footer {
   background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
+  padding: 60px 80px;
   display: flex;
   flex-direction: column;
 }
@@ -52,12 +53,14 @@
 .footer__social-link {
   color: white;
   text-decoration: none;
-  line-height: -20px;
+  line-height: 20px;
   margin: 0;
 }
 
 .footer__social-link:hover {
-  animation: blink 1.5s linear 0 infinite
+  animation: blink 1.5s linear 0 infinite;
+  opacity: 0.7;
+  cursor: pointer;
 }
 
 .footer__social-icon {

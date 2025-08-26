@@ -6,6 +6,7 @@
   background-size: cover;
   display: flex;
   flex-direction: column;
+  padding: 100px 80px 120px;
 }
 
 .reservation__title {
