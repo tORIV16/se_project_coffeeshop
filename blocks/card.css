@@ -9,6 +9,10 @@
   line-height: 30px;
 }
 
+.card__list {
+  padding: 0;
+}
+
 .card__list-item {
   margin: 16px 0 0;
   text-wrap: nowrap;
