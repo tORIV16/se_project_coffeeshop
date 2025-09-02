@@ -1,5 +1,5 @@
 .form {
-  margin: 80px auto 120px;
+  width: 385px;
   display: flex;
   flex-direction: column;
 }
@@ -17,7 +17,7 @@
   color: #000;
 }
 
-.form__label-last {
+.form__label-type_checkbox {
   margin: 32px auto 0;
   display: flex;
   align-items: center;
@@ -38,6 +38,7 @@
   border-radius: 4px;
   color: #fff;
   background-color: #1878DC;
+  border: none;
   margin: 32px 0 0;
   padding: 20px;
   font-weight: 500;

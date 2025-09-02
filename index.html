@@ -56,15 +56,14 @@
 
         <div class="header__footer">
 
-          <div class="header__footer-left">
+          <div>
             <p class="header__paragraph">Hours:</p>
             <p class="header__paragraph">Monday - Friday (10:00 - 19:00)</p>
             <p class="header__paragraph">Saturday - Sunday (11:00 - 18:00)</p>
           </div>
 
-          <div class="header__footer-right">
-            <p class="header__paragraph">200 Success Avenue, The Town of Triple Peaks</p>
-          </div>
+          <p class="header__paragraph">200 Success Avenue, The Town of Triple Peaks</p>
+
 
         </div>
 
@@ -140,20 +139,22 @@
 
             <fieldset class="form__fieldset">
 
-              <label class="form__label">
+              <label for="text-input" class="form__label">
                 Name *
               </label>
               <input
+                id="text-input"
                 type="text"
                 class="form__input"
                 placeholder="Name Surname"
                 required
               >
 
-              <label class="form__label">
+              <label for="number-input" class="form__label">
                 Number of guests *
               </label>
               <input
+                id="number-input"
                 type="number"
                 class="form__input"
                 min="1"
@@ -187,7 +188,7 @@
               Book a table
             </button>
 
-            <label class="form__label form__label-last">
+            <label class="form__label form__label-type_checkbox">
               <input
                 type="checkbox"
                 class="form__checkbox"
